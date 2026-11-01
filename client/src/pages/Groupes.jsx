@@ -3,7 +3,7 @@ import Applayout from '../components/layout/Applayout'
 import { Backdrop, Box, Button, Drawer, Grid, Icon, IconButton, Stack, TextField, Tooltip, Typography } from '@mui/material'
 import {gradiant, matblack, orange} from "../constants/Color"
 import { Add as AddIcon, Chat, Delete as DeleteIcon, Done as DoneIcon, Edit as EditIcon, KeyboardBackspace as KeyboardBackspaceIcon, Menu as MenuIcon  } from '@mui/icons-material'
-import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { useNavigate, useParams, useSearchParams } from 'react-route-dom'
 import { Link } from '../components/styles/StyleComponents'
 import AvatarCard from '../components/shared/AvatarCard'
 import { samplechats, Sampleuserdata } from '../constants/Sampledata'
